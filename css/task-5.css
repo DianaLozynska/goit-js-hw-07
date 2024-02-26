@@ -1,0 +1,24 @@
+.widget {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2e2f42;
+}
+button {
+  all: unset;
+  display: block;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #4e75ff;
+  margin: 0 auto;
+  transition: background-color 0.3s;
+}
+button:hover,
+button:focus {
+  background-color: #6c8cff;
+}
